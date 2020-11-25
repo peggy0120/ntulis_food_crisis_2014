@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>糧食危機</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('a.totop').click(function(){
+			var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+			$body.animate({
+				scrollTop: 0
+			}, 600);
+
+			return false;
+		});
+	});
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="page">
+  <div class="wrapper">
+    <div id="header"><img src="../images/banner.png" width="600" height="168" usemap="#Map" border="0" />
+      <map name="Map" id="Map">
+        <area shape="rect" coords="183,69,284,105" href="../production.html" target="_self" alt="生產政策" title="生產政策" />
+        <area shape="rect" coords="254,107,367,138" href="../land.html" target="_self" alt="農地政策" title="農地政策" />
+        <area shape="rect" coords="333,70,446,105" href="../consumption.html" target="_self" alt="消費習慣" title="消費習慣" />
+        <area shape="rect" coords="409,106,578,137" href="../whatcanwedo.html" target="_self" alt="我們可以怎麼做" title="我們可以怎麼做" />
+        <area shape="rect" coords="10,21,179,159" href="../infographic.html" target="_self" alt="糧食危機" />
+      </map>
+    </div>
+    <hr />
+    <!-- TemplateBeginEditable name="Main" -->
+    <div id="main">
+      <div class="layout1"></div>
+    </div>
+    <!-- TemplateEndEditable -->
+  </div>
+  <div id="backtohome">
+  <a href="../infographic.html"><img src="../images/Home-128_off.png" onmouseover="this.src='images/Home-128_on.png'" onmouseout="this.src='images/Home-128_off.png'" width="80px" height="80px"/></a>
+  </div>
+  <div id="totopbutton">
+  <a href="#" class="totop"><img src="../images/Arrowhead-Up-128_off.png" onmouseover="this.src='images/Arrowhead-Up-128_on.png'" onmouseout="this.src='images/Arrowhead-Up-128_off.png'" width="80px" height="80px"/></a>
+  </div>
+</div>
+</body>
+</html>

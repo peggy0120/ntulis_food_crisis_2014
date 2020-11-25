@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body {
+	margin: 0px;
+	background-color: #f8f8f4;
+	font-family: "Arial", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+p {
+	line-height: 160%;
+	text-align:justify;
+}
+
+a:link, a:visited {
+	color: #cfa245;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #bb0707;
+	text-decoration: underline;
+}
+
+table {
+	margin: 10px 0px;
+	border: solid 2px #ffffff;
+	border-collapse: collapse;
+	border-radius: 7px;
+	width: 100%;
+	background-color: #fafaf6;
+}
+
+caption {
+	margin-bottom: 5px;
+	font-size: 1em;
+}
+
+td, th {
+	padding: 5px;
+	font-size: 10pt;
+	border: solid 1px #948a54;
+}
+
+th {
+	text-align: center;
+}
+
+li {
+	margin-bottom: 2px;
+}
+
+img {
+	border:none;
+}
+
+hr {
+	margin: 15px 0px;
+	border-top: solid 0.1em #c5aa40;
+}
+
+div.wrapper {
+	margin: 0 auto;
+	padding: 20px;
+	width: 600px;
+	background-color: #ffffff;
+	-moz-box-shadow: 0 0 10px 8px #e0e0db;
+	-webkit-box-shadow: 0 0 10px 8px #e0e0db;
+	box-shadow: 0 0 10px 8px #e0e0db;
+}
+
+#header {
+	height: 170px;
+}
+
+#intro {
+	padding: 5px 15px;
+	background-color: #fafaf6;
+	border-radius: 7px;
+}
+
+#intro div.title {
+	text-align: center;
+}
+
+div[id^=area-] {
+	margin: 15px;
+}
+
+div.title {
+	margin-top: -10px;
+	padding-top: 10px;
+	color: #bb0707;
+}
+
+div.subtitle {
+	margin-top: -5px;
+	padding-top: 5px;
+	color: #cfa245;
+}
+
+div[class^=quote] {
+	margin: 10px auto;
+	text-align: center;
+	color: #cfa245;
+	background-image: url(images/quote-bg.png);
+}
+
+div.quote1 {
+	padding: 30px 20px;
+	height: 75px;
+}
+
+div.quote2 {
+	padding: 10px 20px;
+	height: 125px;
+}
+
+div.color-text {
+	margin: 0px 20px;
+	color: #cfa245;
+}
+
+div.content {
+	margin: 5px 20px;
+	overflow: hidden;
+}
+
+div.text {
+	font-size: 1.2em;
+}
+
+div[class^=content-] {
+	width: 48%;
+	margin-bottom: 20px;
+}
+
+div[class^=content-] img {
+	margin-top: 25px;
+}
+
+div.content-left {
+	float: left;
+	padding-right: 5px;
+}
+
+div.content-right {
+	float: right;
+	padding-left: 5px;
+}
+
+div.pic {
+	text-align: center;
+}
+
+div.image-source {
+	margin: 20px 20px;
+}
+
+table.centertext td {
+	text-align: center;
+}
+
+div.table-note {
+	text-align: center;
+	font-size: 1em;
+}
+
+div.relatedLink, div.vidEmbed {
+	background-color: #fafaf6;
+	margin: 10px 0px;
+	padding: 2px 10px;
+}
+
+div.vidEmbed iframe {
+	margin: 0px 0px 20px 35px;
+}
+
+#land_fig {
+}
+
+#land_fig table {
+	border: none;
+}
+
+#land_fig th, #land_fig td {
+	border: none;
+	padding: 10px;
+}
+
+#land_fig_1 td {
+	border-bottom: solid 2px #bb0707;
+}
+
+#land_fig_1 th {
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	color: #bb0707;
+}
+
+#land_fig_2 td {
+	border-bottom: solid 2px rgb(207, 162, 69);
+}
+
+#land_fig_2 th {
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	color: #cfa245;
+}
+
+#land_fig_3 td {
+	border-bottom: solid 2px #5f7824;
+}
+
+#land_fig_3 th {
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	color: #5f7824;
+}
+
+#area-consume2 div.quote2 {
+	background-image: url(images/quote-bg_cousume3.png);
+	padding-right: 220px;
+}
+
+#namelist {
+	margin:0 auto;
+	text-align:center;
+}
+#namelist ul {
+	margin:5px auto;
+	padding:0px;
+	list-style:none;
+}
+
+#namelist li {
+	margin:0px 10px;
+	display:inline;
+	font-size:1.2em;
+}
+
+#namelist li a {
+	margin: 5px;
+	padding: 5px 10px;
+}
+
+div[id^=area-prog] div.content li {
+	margin-bottom:0.5em;
+}
+
+div[id^=area-prog] div.content p {
+	text-indent:2em;
+}
+
+div[id^=area-prog] div.content ol p {
+	text-indent:0em;
+}
+
+div.name {
+	margin:10px 0px;
+	padding-top: 5px;
+	font-size:1.2em;
+}
+
+span.resp {	
+	margin:-25px 5px 20px 0px;
+}
+
+div.thought {
+	padding: 2px 10px;
+	border-radius: 7px;
+	background-color:#fafaf6;
+}
+
+div.thought p {
+	text-indent:2em;
+	font-size:1.2em;
+}
+
+#footer {
+	margin-top: 5px;
+	background-color: #fafaf6;
+	height: 200px;
+}
+
+#totopbutton {
+	right: 20px;
+	position:fixed;
+	bottom: 120px;
+}
+
+#backtohome {
+	right: 20px;
+	position:fixed;
+	bottom: 20px;
+}
